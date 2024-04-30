@@ -1,0 +1,29 @@
+footer {
+    width: 100%;
+    background-color: var(--primary-color);
+    padding: 20px 0;
+    color: var(--white-color);
+}
+
+.footer-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.footer-logo img{
+    width: 135px;
+}
+.footer-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.footer-menu a{
+color: var(--white-color);
+}
+

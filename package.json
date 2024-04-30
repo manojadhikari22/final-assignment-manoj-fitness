@@ -1,0 +1,18 @@
+{
+  "name": "final-assignment-manoj-fitness",
+  "version": "1.0.0",
+  "description": "Manoj fitness App is a web-based application designed to enhance the fitness experience for gym enthusiasts and newcomers alike. It offers a range of features including workout tracking, class schedules, nutritional guides, and personal fitness goals management. Leveraging Firebase for authentication and data storage, the app ensures a personalized and secure experience for every user.",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build *.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  },
+  "dependencies": {
+    "firebase": "^10.11.1"
+  }
+}

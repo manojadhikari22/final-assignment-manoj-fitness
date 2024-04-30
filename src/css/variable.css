@@ -1,0 +1,13 @@
+:root{
+    --primary-color: #0C2D48;
+    --secondary-color: #145DA0;
+    --ternary-color: #2E8BC0;
+    --light-color:#B1D4E0;
+    --white-color:#ffffff;
+    --black-color:#000000;
+    --heading-first:2.8rem;
+    --heading-second:2rem;
+    --heading-third:1.5rem;
+    --paragraph-primary:1.2rem;
+    --paragraph-secondary:1rem;
+}
