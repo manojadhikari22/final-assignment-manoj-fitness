@@ -11,7 +11,8 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./style.css" />
+    
+    <link rel="stylesheet" href="./style.css">
     <title>Manoj Fitness - Login</title>
   </head>
   <body>
@@ -39,22 +40,50 @@
         </nav>
     </header>
     <main>
-       <section>
-            <button class="sign-out-button">Sign out</button>
-            <form class="sign-in-form">
-                <label for="">Email<sup>*</sup></label>
-                <input type="text" name="email" class="email" placeholder="enter the email">
-                <p class="email-error">Error</p>
-    
-                <label for="">Password<sup>*</sup></label>
-                <input type="password" name="password" class="password" placeholder="enter the password">
-                <p class="password-error">Error</p>
-    
-                <button class="sign-in-button">Sign in</button>
-                
-                <p class="submission-error">Error</p>
-            </form>
-        </section>
+       <section class="contact-info-container">
+        <div class="contact-info">
+            <h1>Manoj Fitness Ski</h1>
+            <p class="contact-address">Magasinparken 30, 1423 Ski</p>
+            <p> <a href="mailto:manojfitness.ski@mfc.no">manojfitness.ski@mfc.no</a></p>
+            <p> <a href="tel:+4747003020">47003020</a></p>
+            <p class="fitness-opening-hours">See opening hours <a href="">here</a></p> <!-- Link to opening hours page -->
+            <h2 class="fitness-member">Become a Member</h2>
+            <a href="./register.html">Join us!</a> <!-- Link to membership page -->
+        </div>
+        
+        <div class="contact-img">
+            <img src="./assets/group-workout.jpg" alt="contact image">
+        </div>
+       </section>
+
+
+       <h1 class="trainers">TRAINERS</h1>
+       <section class="trainer-section-container">
+        <div class="trainer">
+            <img src="./assets/trainer1.jpg" alt="Trainer 1">
+            <p>Trainer 1</p>
+        </div>
+        <div class="trainer">
+            <img src="./assets/trainer2.jpg" alt="Trainer 2">
+            <p>Trainer 2</p>
+        </div>
+        <div class="trainer">
+            <img src="./assets/trainer2.jpg" alt="Trainer 3">
+            <p>Trainer 3</p>
+        </div>
+        <div class="trainer">
+            <img src="./assets/trainer4.jpg" alt="Trainer 4">
+            <p>Trainer 4</p>
+        </div>
+        <div class="trainer">
+            <img src="./assets/trainer5.jpg" alt="Trainer 5">
+            <p>Trainer 5</p>
+        </div>
+        <div class="trainer">
+            <img src="./assets/trainer6.jpg" alt="Trainer 6">
+            <p>Trainer 6</p>
+        </div>
+       </section>
         
     </main>
     <!-- Footer  -->
