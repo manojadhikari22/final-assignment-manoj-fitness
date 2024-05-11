@@ -1,6 +1,6 @@
 main {
     width: 100%;
-    height: 100vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     
@@ -19,8 +19,8 @@ main {
 }
 .contact-img img{
     flex-basis: 50%;
-    width: 90%;
-    height: 90%;
+    width: 70%;
+    height: 70%;
     border-radius: 0.5rem;
 }
 .contact-address{
@@ -32,6 +32,53 @@ main {
 .fitness-opening-hours{
     padding-top: 1rem;
 }
+
+/*Opening hours container section*/
+.opening-hours-container {
+    width: 300px;
+    padding: 20px;
+    display: block;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .opening-hours-container h2 {
+    margin-top: 0;
+  }
+  
+  .opening-hours-container table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .opening-hours-container th,
+  .opening-hours-container td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .opening-hours-container th {
+    background-color: #f2f2f2;
+  }
+  
+  .opening-hours-container .cancel-btn {
+    margin-top: 20px;
+    padding: 8px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .opening-hours-container .cancel-btn:hover {
+    background-color: #0056b3;
+  }
 
 /* Trainer section */
 
@@ -59,7 +106,7 @@ main {
 
 .trainer img {
     width: 100%;
-    max-width: 150px;
+    max-width: 200px;
     height: auto;
     border-radius: 50%;
     margin-bottom: 10px;
