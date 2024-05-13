@@ -34,28 +34,51 @@
                 <li><a href="./training.html">Training</a></li>
                 <li><a href="./contact.html">Contact</a></li>
                 <li><a href="./login.html" class="nav-lists-login-btn">Login</a></li>
+                <li><a href="./login.html" class="nav-lists-logout-btn">Log out</a></li>
                 <li><a href="./register.html" class="nav-lists-register-btn">Register</a></li>
             </ul>
         </nav>
     </header>
     <main>
-       <section>
-            <button class="sign-out-button">Sign out</button>
-            <form class="sign-in-form">
-                <label for="">Email<sup>*</sup></label>
-                <input type="text" name="email" class="email" placeholder="enter the email">
-                <p class="email-error">Error</p>
-    
-                <label for="">Password<sup>*</sup></label>
-                <input type="password" name="password" class="password" placeholder="enter the password">
-                <p class="password-error">Error</p>
-    
-                <button class="sign-in-button">Sign in</button>
-                
-                <p class="submission-error">Error</p>
-            </form>
-        </section>
-        
+        <section>
+            <div class="sign-in-form-wrapper">
+              <div class="login-info"></div>
+              <div class="sign-in">
+                <h2>Login</h2>
+                <form class="sign-in-form">
+                  <div class="form-control">
+                      <label for="email">Email<sup>*</sup></label>
+                      <input
+                          type="email"
+                          id="email"
+                          name="email"
+                          class="email form-input"
+                          placeholder="example@example.com"
+                          required
+                      />
+                      <p class="email-error">Error</p>
+                  </div>
+              
+                  <div class="form-control">
+                      <label for="password">Password<sup>*</sup></label>
+                      <input
+                          type="password"
+                          id="password"
+                          name="password"
+                          class="password form-input"
+                          placeholder="Enter your password"
+                          required
+                      />
+                      <p class="password-error">Error</p>
+                  </div>
+                  <div class="form-control">
+                      <button class="sign-in-button" type="submit">Log in</button>
+                      <p class="submission-error">Error</p>
+                  </div>
+              </form>
+              </div>
+            </div>
+          </section>
     </main>
     <!-- Footer  -->
     <footer>
