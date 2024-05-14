@@ -69,6 +69,8 @@ function signInUser() {
         localStorage.setItem("userEmail", email);
         const userEmail = localStorage.getItem("userEmail");
 
+        window.location.href = './index.html';
+
         // Display user email in loginInfo element
         loginInfo.innerText = `Logged in as ${userEmail}`;
         loginButton.style.display = "none";

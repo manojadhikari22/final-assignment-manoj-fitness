@@ -41,7 +41,7 @@ function signUpUser() {
         createUserWithEmailAndPassword(authService, newUser.signUpEmail, newUser.signUpPassword)
             .then(() => {
                 signUpForm.reset();
-                
+                window.location.href = './login.html';
             })
             .catch((err)=> console.log(err.message))
     }
